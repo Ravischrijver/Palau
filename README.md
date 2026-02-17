@@ -192,7 +192,7 @@ document.getElementById("sendbtn").onclick = async function() {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
-            "Authorization": "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"
+            "Authorization": "bearer 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"
         },
         body: JSON.stringify({
             model: "gpt-3.5-turbo",
