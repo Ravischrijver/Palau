@@ -2,13 +2,13 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', Arial, sans-serif;
-    background: #f5f7fa;
-    color: #333;
+    background: #e8f9ff;
+    color: #003049;
 }
 
 /* NAVIGATIE */
 nav {
-    background: #1e88e5;
+    background: #00a8e8;
     padding: 15px 25px;
     display: flex;
     justify-content: center;
@@ -16,13 +16,14 @@ nav {
     position: sticky;
     top: 0;
     z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    font-weight: 600;
-    font-size: 17px;
+    font-weight: 700;
+    font-size: 18px;
 }
 
 nav a:hover {
@@ -68,18 +69,19 @@ main {
 .section-block {
     background: white;
     padding: 25px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     margin-bottom: 30px;
+    border-left: 8px solid #00a8e8;
 }
 
 h2 {
-    color: #1e88e5;
+    color: #0077b6;
     margin-top: 0;
 }
 
 h3 {
-    color: #1565c0;
+    color: #0096c7;
 }
 
 /* CARDS */
@@ -91,21 +93,23 @@ h3 {
 
 .card {
     flex: 1;
-    background: #e3f2fd;
+    background: #caf0f8;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
 }
 
 .card a {
-    color: #0d47a1;
+    color: #0077b6;
     font-weight: bold;
 }
 
 /* FOOTER */
 footer {
-    background: #1e88e5;
+    background: #00a8e8;
     color: white;
     text-align: center;
     padding: 20px;
     margin-top: 40px;
+    font-weight: bold;
 }
